@@ -981,6 +981,11 @@ Copyrights =========*/
 	border-bottom: none;
 }
 
+a:hover .event-info .icon{
+	color: #e74c3c;
+	border-color: #e74c3c;
+}
+
 body{
 	background: url('../images/bg-work.jpg') no-repeat;
 	background-size: cover;
