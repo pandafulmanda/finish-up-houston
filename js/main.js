@@ -2,7 +2,8 @@
     "use strict";
 
     ///////////////////////////////////////////////////// Your
-    var venueAddress = "White Space<br/>2914 White Oak Dr<br/>Houston, TX 77007"; // Venue
+    var venueAddress = "2914 White Oak Dr, Houston, TX 77007"; // Venue
+    var venueLabel = "<a href=\"https://www.google.com/maps/dir/''/2914+White+Oak+Dr,+Houston,+TX+77007/data=!4m5!4m4!1m0!1m2!1m1!1s0x8640b8a8cf1d971f:0x95e00b73616cc8a3?sa=X&ei=zoIiVJWvMJCjyASy_oGwDA&ved=0CCAQwwUwAA\" target=\"_blank\"><strong>White Space</strong><br/>2914 White Oak Dr<br/>Houston, TX 77007</a>";
     /////////////////////////////////////////////////// Adress
 
     var fn = {
@@ -26,7 +27,7 @@
         // Google Maps
         GoogleMaps: function () {
 
-            var markerInfo = "<h4>" + venueAddress + "</h4>";
+            var markerInfo = "<h4>" + venueLabel + "</h4>";
             $("#map_canvas").gmap3({
                 map: {
                     options: {
